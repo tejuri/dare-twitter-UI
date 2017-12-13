@@ -1,6 +1,10 @@
 .header {
     background-color: lightslategrey;
 }
-.navbar {
+.navbar-bg-color {
     background-color: lightsteelblue;
+}
+
+.bg-dark-color {
+    background-color: black;
 }
