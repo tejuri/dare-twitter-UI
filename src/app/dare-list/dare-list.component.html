@@ -1,0 +1,19 @@
+<div class="dare-list-box">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>
+        <h3>Trending Dares</h3>
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-nav-list>
+        <mat-list-item *ngFor="let dare of dareList">
+          <div class="dare-list-item-content">
+            <span class="m-0 mr-1">{{dare}}</span>
+          </div>
+        </mat-list-item>
+      </mat-nav-list>
+    </mat-card-content>
+  </mat-card>
+</div>
+

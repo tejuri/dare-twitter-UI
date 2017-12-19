@@ -1,3 +1,27 @@
-<div class="text-center">
-  <h1>Home Page</h1>
+<div class="home">
+  <div class="main left-main">
+    <dare-list-box></dare-list-box>
+  </div>
+  <div class="main center-main">
+    <div *ngFor="let post of postList">
+      <post-box [post]="post"></post-box>
+    </div>
+  </div>
+  <div class="main right-main">
+    <div class="sign-up-box">
+      <mat-card class="text-center">
+        <mat-card-header>
+          <mat-card-title><h3>New to Dare Twitter?</h3></mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <h4>Sign up now to get your own personalized timeline!</h4>
+        </mat-card-content>
+        <mat-card-actions routerLinkActive="active">
+          <button mat-button routerLink="/register"><h4>Sign Up</h4></button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
 </div>
+
+

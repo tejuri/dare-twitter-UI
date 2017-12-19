@@ -1,0 +1,27 @@
+.home {
+  flex-flow: row; 
+  box-sizing: border-box; 
+  display: flex;
+}
+.main { 
+  box-sizing: border-box; 
+  flex-direction: column; 
+  display: flex;
+}
+.left-main {
+  flex: 1 1 20%;
+  max-width: 20%;
+}
+.center-main {
+  flex: 1 1 55%;
+  max-width: 55%;
+}
+.right-main {
+  flex: 1 1 25%;
+  max-width: 25%;
+}
+.sign-up-box {
+  flex: 1 1 20%;
+  box-sizing: border-box;
+  margin: 0.5em;
+}

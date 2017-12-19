@@ -1,0 +1,12 @@
+.dare-list-box {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  margin: 0.5em;
+}
+.dare-list-item-content {
+  flex: 1 1 100%; 
+  box-sizing: border-box; 
+  flex-direction: row; 
+  display: flex; 
+  max-width: 100%;
+}
